@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.row {
+    height: 100%; 
+}
+.main {
+
+
+}
+.right_side {
+    background-color: #fafafa;
+}
+.left_side {
+    background-color: #043446;
+}
+ul{
+    list-style-type: none;
+    padding: 0; 
+}
+.hobbies {
+    display: flex; 
+    justify-content: space-around; 
+}
+
+.hobbies li {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    margin: 0 15px; 
+    align-items: center;
+}
+
+.hobbies li i {
+    margin-right: 10px; 
+}
+
+.hobbies li span {
+    font-weight: 500; 
+}
